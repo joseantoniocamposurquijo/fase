@@ -1,0 +1,174 @@
+/*ASPECTOS GENERALES*/
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana;
+	background: #fff;
+	color: #2f3030;
+}
+
+/*ESTILOS DEL MENU PRINCIPAL*/
+div#menu{
+	position: absolute;
+	width: 65px;
+	height: 100%;
+	background-color: #2f3030;
+	color: #bcbcbc;
+	overflow: hidden;
+	-webkit-transition: width 0.5s;
+}
+div#menu a{
+	text-decoration: none;
+	color: #bcbcbc;
+}
+div#menu:hover{
+	width: 170px;
+}
+div#menu a:hover{
+	color: #fff;
+}
+div#logo-principal{
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	background-image: url(http://www.danieltinte.com.ar/movil/images/icono-menu.png);
+}
+div.contenedor-general{
+	width: 150px;
+	height: 12%;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+div#contenedor-general-primero{
+	margin-top:50px;
+}
+div.logo-interior{
+	width: 40px;
+	height: 100%;
+	text-align: center;
+	float: left;
+}
+p.texto1{
+	font-size: 30px;
+	margin: 2px;
+	margin-top: 10px;
+}
+p.texto2{
+	margin-left: 60px;
+	line-height: 50px;
+}
+
+
+/*ESTILOS DEL CUERPO DEL DOCUMENTO PRINCIPAL*/
+#info{
+	position: absolute;
+	left: 190px;
+	right: 0px;
+	min-height: 400px;
+	padding-top: 40px;
+}
+div#texto-contenedor{
+	width: 60%;
+	min-height: 450px;
+	float: left;
+}
+div#imagen-contenedor{
+	width: 40%;
+	min-height: 450px;
+	float: right;
+}
+img#imagen{
+	display: block;
+	margin: auto;
+	width: 300px;
+	margin-top: 30px;
+}
+article h2{
+	margin: 20px;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 18px;
+}
+article p{
+	text-align: center;
+}
+
+
+/*ESTILOS DEL MODAL*/
+.modal:target{
+	display: block;
+	position: fixed;
+	top: 35px;
+	left: 210px;
+	width: 80%;
+	height: 88%;
+	border: 2px solid red;
+	background-color: #fff;
+}
+.modal{
+display: none;
+}
+.campo{
+	width: 50%;
+	height: 95%;
+	display: flex;
+	position: absolute;
+	float: left;
+	margin-top: 8px;
+	text-align: center;
+}
+.campo2{
+	width: 50%;
+	height: 100%;
+	float: right;
+	text-align: center;
+	border-left: 1px solid gray;
+}
+.cerrar{
+	border: 2px solid red;
+	display: inline-block;
+	background: #fff;
+	width: 25px;
+	height: 25px;
+	margin: -19px -19px;
+	text-align: center;
+	text-decoration: none;
+	font-size:25px;
+	color:red;
+	padding:5px;
+	border-radius: 50%;
+	line-height: 25px;
+}
+
+/*ESTILOS DE TABLAS*/
+h1{
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+table{
+	background-color: rgba(0,0,0,0.3);
+	padding: 5px;
+	border: #666 5px solid;
+	margin-left: auto;
+	margin-right: auto;
+}
+.rojo{
+	font-size: 18px;
+	color: red;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.verde{
+	font-size: 18px;
+	color: green;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
